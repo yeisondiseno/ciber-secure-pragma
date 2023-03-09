@@ -1,3 +1,11 @@
+// layout
+@mixin mode_flex($direction, $align, $justify) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+
 // shadows
 @mixin set_shadow($color) {
   box-shadow: 0px 32px 64px rgba($color, 0.5), 0px 16px 32px rgba($color, 0.05);
