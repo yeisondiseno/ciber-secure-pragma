@@ -1,0 +1,13 @@
+@import '../settings/colors';
+
+.btn {
+  background-color: $white;
+  border: none;
+  font-size: 1rem;
+  color: $primary;
+
+  &-primary {
+    background-color: $primary;
+    color: $white;
+  }
+}
