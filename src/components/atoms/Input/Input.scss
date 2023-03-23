@@ -1,0 +1,25 @@
+@import '../../../styles/settings/colors';
+@import '../../../styles/settings/mixins';
+
+.a-input {
+  @include mode_flex(column, inherit, inherit);
+  margin-bottom: 1.5rem;
+
+  label {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  input,
+  textarea {
+    padding: 0.3rem 0.5rem;
+    border: none;
+    border-bottom: solid 1px $background;
+    color: $text;
+
+    &:focus-visible {
+      outline: none;
+      border-color: $secondary;
+    }
+  }
+}

@@ -1,12 +1,12 @@
 // layouts
 import PublicLayout from './layout/Public/public.layout';
 // pages
-import HomePage from './pages/Home/Home.page';
+import PublicPage from 'pages/Public/Public.page';
 
 function App() {
   return (
     <PublicLayout>
-     <HomePage />
+      <PublicPage />
     </PublicLayout>
   );
 }

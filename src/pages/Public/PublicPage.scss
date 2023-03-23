@@ -1,0 +1,19 @@
+@import '../../styles/settings/colors';
+
+.public-page {
+  &__line {
+    display: block;
+    background-color: $primary;
+    width: 240px;
+    height: 8px;
+    margin-bottom: calc(0.67em + 8px);
+    margin-top: -0.67em;
+    transition: 0.3s;
+    will-change: width;
+
+    &:hover {
+      width: 300px;
+      transform-origin: left;
+    }
+  }
+}

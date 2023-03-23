@@ -2,6 +2,12 @@
 @import '../../../styles//settings/mixins';
 
 .nav-public-layout {
-  @include mode_flex(row, center, space-between);
-  padding: 1rem 0;
+  width: 100%;
+  margin-bottom: 2rem;
+
+  @include set_shadow_soft($shadow-color);
+
+  header {
+    @include mode_flex(row, center, space-between);
+  }
 }

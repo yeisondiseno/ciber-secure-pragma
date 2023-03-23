@@ -1,0 +1,8 @@
+@import '../settings/mixins';
+@import '../settings/colors';
+
+.card {
+  background-color: $white;
+  padding: 1rem;
+  @include set_shadow($shadow-color);
+}

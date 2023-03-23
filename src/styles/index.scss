@@ -1,3 +1,13 @@
+// settings
 @import './generic/normalize';
-@import './atoms/container';
 @import './settings/fonts';
+@import './settings/colors';
+// components
+@import './atoms/container';
+@import './atoms/card';
+
+// extras
+hr {
+  border-color: $background;
+  border-style: solid;
+}
